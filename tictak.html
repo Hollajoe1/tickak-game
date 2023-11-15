@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tictak-toe</title>
+    <link rel="stylesheet" href="tictak.css">
+</head>
+<body>
+<main>
+
+<div id="main">
+    <p class="welcome">WELCOME TO OUR <br> TIC-TAK-TOE GAME</p>
+    <p class="p1">PLAYER 1: <input id="name1" type="text" placeholder="Player X Enter your Name"></p>
+    <p class="p2">PLAYER 2: <input id="name2" type="text" placeholder="Player O Enter your Name"></p>
+    <input type="text" id="display" readonly>
+    <button onclick="resetGame()" id="reset">RESET GAME</button>
+</div>
+
+<section id="section"> 
+    <nav>
+    <div class="box" onclick="handleClick(event)" id="a"> </div>
+    <div class="box" onclick="handleClick(event)"  id="b"> </div>
+    <div class="box" onclick="handleClick(event)" id="c"> </div>
+    <div class="box" onclick="handleClick(event)" id="d"> </div>
+    <div class="box" onclick="handleClick(event)" id="e"> </div>
+    <div class="box" onclick="handleClick(event)" id="f"> </div>
+    <div class="box" onclick="handleClick(event)" id="g"> </div>
+    <div class="box" onclick="handleClick(event)" id="h"> </div>
+    <div class="box" onclick="handleClick(event)" id="i"> </div>
+</nav>
+</section>
+</main>
+    <script src="tictak.js"></script>
+</body>
+</html>
